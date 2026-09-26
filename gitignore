@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Trained models (can be large; regenerate via the training scripts instead)
+models/*.joblib
+models/distilbert_sentiment/
+outputs/transformer_ckpts/
+
+# Generated outputs
+outputs/*.png
+
+# NLTK downloaded data (auto-downloads on first run)
+nltk_data/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
