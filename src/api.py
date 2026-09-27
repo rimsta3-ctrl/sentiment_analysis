@@ -61,7 +61,7 @@ app = FastAPI(title="Sentiment Analysis API", lifespan=lifespan)
 
 class PredictRequest(BaseModel):
     text: str
-    model: str = "baseline"  # "baseline" or "transformer"
+    model: str = "transformer"  # "baseline" or "transformer"
 
 
 class PredictResponse(BaseModel):
